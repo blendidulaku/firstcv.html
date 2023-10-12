@@ -1,0 +1,38 @@
+h4 ,h3 {
+  color: #000000;
+  font-family: 'arial';
+  font-size: 20px;
+  margin-left: 5px;
+  position: relative;
+  width: 93%;
+  }
+
+  
+
+
+.languageInfo .percent {
+  position: relative;
+  width: 60%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+
+}
+
+.languageInfo .percent div {
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  background: #b7c0c5;
+
+}
+
+.characteristicsInfo li{
+padding-bottom: 10px;
+}
+
+.contactInfo {
+   width: 260px; height: 780px;  margin-top:-680px;
+}
