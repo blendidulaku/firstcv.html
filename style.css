@@ -1,3 +1,11 @@
+body {
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+}
+
 h4 ,h3 {
   color: #000000;
   font-family: 'arial';
@@ -7,7 +15,14 @@ h4 ,h3 {
   width: 93%;
   }
 
-  
+.img {
+  padding-left: 50px;
+  padding-top: 5px;
+  background-color: #435270;
+  border:1px solid #999;
+	border-radius:8px;
+	box-shadow:0 0 10px #999;
+}  
 
 
 .languageInfo .percent {
@@ -34,5 +49,34 @@ padding-bottom: 10px;
 }
 
 .contactInfo {
-   width: 260px; height: 780px;  margin-top:-680px;
+   
+  width: 265px; 
+  height: 770px; 
+  margin-top:-690px;
+  border:1px solid #999;
+	border-radius:8px;
+	box-shadow:0 0 10px #999;
+}
+
+.section2 {
+  background-color: aliceblue;
+  border-radius:8px;
+  box-shadow:0 0 10px #999;
+}
+
+legend {
+	float:left;
+	margin-top:-20px;}
+
+  legend + * {
+    clear:both;
+  }
+
+p {
+  color:#526c80; 
+}
+
+legend+h2 {
+  padding-left: 50px;
+  margin-top: -1px;
 }
